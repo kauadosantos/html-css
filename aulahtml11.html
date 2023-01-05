@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula de imagens dinamicas</title>
+</head>
+<body>
+
+    <h1>ajustando imagens para diversos conponentes</h1>
+
+<ol type="I">
+<li>tamanhos da imagem para celular 300 para 300</li>
+<li>tamanhos da imagem para tablet 700 para 700 </li>
+<li>tamanho de imagem para pc 1000 por 1000</li> 
+
+
+
+</ol>
+
+    <picture>
+<source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+<source media="(max-width: 1000px)" srcset="imagens/m.png" type="image/png">
+
+<img src="imagens/g.png" alt="imagem flexivel">
+
+
+
+    </picture>
+
+
+
+    
+</body>
+</html>
